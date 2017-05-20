@@ -153,7 +153,7 @@
 
 /* MIN 1000px For Navigation */
 
-	@media only screen and (min-width: 1000px){
+	@media only screen and (min-width: 1200px){
 
 		/* Navigation */
 		.nav-inner div.nav-menu{
