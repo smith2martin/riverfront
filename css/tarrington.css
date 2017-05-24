@@ -35,3 +35,7 @@ ol.list li:before {
 	border-radius: 5px;
 	padding: 20px;
 }
+
+.boxes.boxes-type-3 .box-icon a.changeable-icon.numbered {
+	line-height: 60px;
+}

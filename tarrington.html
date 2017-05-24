@@ -867,7 +867,7 @@ If you're on the shore, then you're sho' not me-oh<br />
 					<!-- Box Icon -->
 					<div class="box-icon t-center normal f-left col-xs-2">
 						<!-- Icon -->
-						<a href="#" class="changeable-icon">
+						<a href="#" class="changeable-icon numbered">
 							1
 						</a>
 					</div>
@@ -880,7 +880,7 @@ If you're on the shore, then you're sho' not me-oh<br />
 						</h4>
 						<!-- Box Description -->
 						<p class="no-padding light no-margin">
-							Claim any <span class="colored">available, non-registered</span> berth. We suggest locking your boat to the rack with a sturdy, weather-proof combination lock.
+							Claim any <span class="colored">available, non-registered</span> berth. We suggest locking your boat to the rack with a sturdy, weather-proof cable and combination lock (think: no key to lose in the water!).
 						</p>
 					</div>
 					<!-- End Box Texts -->
@@ -892,7 +892,7 @@ If you're on the shore, then you're sho' not me-oh<br />
 					<!-- Box Icon -->
 					<div class="box-icon t-center normal f-left col-xs-2">
 						<!-- Icon -->
-						<a href="#" onclick="" class="changeable-icon">
+						<a href="#" onclick="" class="changeable-icon numbered">
 							2
 						</a>
 					</div>
@@ -918,7 +918,7 @@ If you're on the shore, then you're sho' not me-oh<br />
 					<!-- Box Icon -->
 					<div class="box-icon t-center normal f-left col-xs-2">
 						<!-- Icon -->
-						<a href="#" class="changeable-icon">
+						<a href="#" class="changeable-icon numbered">
 							3
 						</a>
 					</div>
@@ -944,7 +944,7 @@ If you're on the shore, then you're sho' not me-oh<br />
 					<!-- Box Icon -->
 					<div class="box-icon t-center normal f-left col-xs-2">
 						<!-- Icon -->
-						<a href="#" class="changeable-icon">
+						<a href="#" class="changeable-icon numbered">
 							4
 						</a>
 					</div>
@@ -958,7 +958,7 @@ If you're on the shore, then you're sho' not me-oh<br />
 
 						<!-- Box Description -->
 						<p class="no-padding light no-margin">
-							Complete the form below to register your berth with the Park committee. This allows us to verify residency and contact you in case of damage or to otherwise follow up.
+							Complete the form below to register your berth with the Park committee. This site works well on mobile, so <span class="colored">do it right from the Park</span> before you forget!
 						</p>
 					</div>
 					<!-- End Box Texts -->
@@ -1008,8 +1008,19 @@ If you're on the shore, then you're sho' not me-oh<br />
 								<input type="email" name="registerEmail" id="registerEmail" required placeholder="E-Mail">
 							</div>
 						</div>
+						<div class="fullwidth clearfix">
+							<!-- Left Item -->
+							<div class="f-left">
+								<!-- Name -->
+								<input type="text" name="registerBerthNumber" id="registerBerthNumber" required placeholder="Berth Number">
+							</div>
+							<!-- Right Item -->
+							<div class="f-right">
+								<input type="tel" name="registerPhoneNumber" id="registerPhoneNumber" required placeholder="Phone Number">
+							</div>
+						</div>
 						<!-- End 50% inputs -->
-						<input type="text" name="registerBerthNumber" id="registerBerthNumber" required placeholder="Berth Number">
+						
 						<textarea name="registerDescription" id="registerDescription" required placeholder="Describe your Boat(s)"></textarea>
 						<textarea name="registerComments" id="registerComments" placeholder="Any Additional Comments"></textarea>
 
@@ -1048,301 +1059,6 @@ If you're on the shore, then you're sho' not me-oh<br />
 
 	</section>
 	<!-- End Boat Registration Section -->
-
-
-
-
-
-<!-- Contact -->
-	<section id="contact" class="relative contact">
-
-		<!-- Inner -->
-		<div class="inner t-center clearfix animated" data-animation="fadeIn" data-animation-delay="800">
-			<!-- Header -->
-			<h1 class="header header-style-2 dark oswald uppercase t-center ">
-				Contact Us
-			</h1>
-			<!-- Header Text -->
-			<p class="light t-center">
-				There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected 
-			</p>
-
-			<!-- Form -->
-			<div class="fullwidth clearfix">
-
-				<!-- Contact Form -->
-				<div class="contact_form type-2 white-form">
-					<!-- Form -->
-					<form id="contact_form" name="cform" class="clearfix form oswald normal antialiased" method="post" action="php/mail.php">
-						<!-- 50% inputs -->
-						<div class="fullwidth clearfix">
-							<!-- Left Item -->
-							<div class="f-left">
-								<!-- Name -->
-								<input type="text" name="name" id="name" required placeholder="Name">
-							</div>
-							<!-- Right Item -->
-							<div class="f-right">
-								<!-- Email -->
-								<input type="email" name="email" id="email" required placeholder="E-Mail">
-							</div>
-						</div>
-						<!-- End 50% inputs -->
-						<!-- Subject -->
-						<input type="text" name="subject" id="subject" required placeholder="Subject">
-
-						<!-- Message -->
-						<textarea name="message" id="message" required placeholder="Message"></textarea>
-
-						<!-- Verify Math / You can delete blockers for Math Verify -->
-						<!-- <input type="text" name="verify" id="verify" required placeholder=""> -->
-
-						<!-- Send Button -->
-						<button type="submit" id="submit" name="submit">Send</button>
-						<!-- Error Message -->
-						<div class="error_message">
-							<p class="t-left no-margin">
-								<!-- Error Message Icon -->
-								<i class="fa fa-warning"></i>
-								Validation error occured. Please enter the fields and submit it again.
-							</p>
-						</div>
-						<!-- Submit Message -->
-						<div class="submit_message">
-							<p class="t-left no-margin">
-								<!-- Error Message Icon -->
-								<i class="fa fa-check"></i>
-								Thank You ! Your email has been delivered.
-							</p>
-						</div>
-					</form>
-					<!-- End Form -->
-				</div>
-				<!-- End Form Div -->
-			</div>
-			<!-- End Contact Form -->
-		</div>
-		<!-- End Inner -->
-	</section>
-	<!-- End Contact Section -->
-
-
-
-
-
-
-
-	<!-- Featured Works With Testimonials Slider -->
-	<section class="testimonials type-2 white-bg">
-		<!-- Inner -->
-		<div class="inner">
-			<!-- Header -->
-			<h2 class="header t-center header-style-1 dark normal oswald uppercase">
-				Our Featured Works
-			</h2>
-			<!-- Slider -->
-			<div class="testimonial-slide dark">
-				<!-- Item -->
-				<div class="cbp-item">
-					<!-- Item Header -->
-					<h2 class="t-center light">
-						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
-					</h2>
-					<!-- Item Description -->
-					<p class="light t-center">
-						See at more 
-						<a href="#" target="_blank">
-							<span class="colored">
-								www.website.com
-							</span>
-						</a>
-					</p>
-				</div>
-				<!-- Item -->
-				<div class="cbp-item">
-					<!-- Item Header -->
-					<h2 class="t-center light">
-						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
-					</h2>
-					<!-- Item Description -->
-					<p class="light t-center">
-						See at more 
-						<a href="#" target="_blank">
-							<span class="colored">
-								www.website.com
-							</span>
-						</a>
-					</p>
-				</div>
-				<!-- Item -->
-				<div class="cbp-item">
-					<!-- Item Header -->
-					<h2 class="t-center light">
-						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
-					</h2>
-					<!-- Item Description -->
-					<p class="light t-center">
-						See at more 
-						<a href="#" target="_blank">
-							<span class="colored">
-								www.website.com
-							</span>
-						</a>
-					</p>
-				</div>
-			</div>
-			<!-- End Slider -->
-		</div>
-		<!-- End Inner -->
-	</section>
-	<!-- End Testimonials -->
-
-
-
-
-
-
-
-
-
-
-
-	<!-- Featured Works Section -->
-	<section id="featured-works2" class="container no-padding no-border-bottom carousel_type">
-
-		<!-- Featured Slider -->
-		<div class="featured-slider-boxes box-carousel three-items no-pagination t-center">
-
-			<!-- Box -->
-			<a href="projects/project_01.html" class="box ex-link">
-				<!-- Box Image -->
-				<div class="item_image">
-					<!-- Image SRC -->
-					<img src="images/portfolio/featured01.jpg" alt="Crexis" />
-				</div>
-				<!-- Item Texts -->
-				<div class="item_texts">
-					<!-- Header -->
-					<h2 class="normal antialiased oswald uppercase">
-						Beautiful Girl
-					</h2>
-					<!-- Description -->
-					<p class="light">
-						Photography
-					</p>
-				</div>
-			</a>
-			<!-- End Box -->
-
-			<!-- Box -->
-			<a href="projects/project_01.html" class="box ex-link">
-				<!-- Box Image -->
-				<div class="item_image">
-					<!-- Image SRC -->
-					<img src="images/portfolio/featured02.jpg" alt="Crexis" />
-				</div>
-				<!-- Item Texts -->
-				<div class="item_texts">
-					<!-- Header -->
-					<h2 class="normal antialiased oswald uppercase">
-						Sun Light
-					</h2>
-					<!-- Description -->
-					<p class="light">
-						Photography
-					</p>
-				</div>
-			</a>
-			<!-- End Box -->
-
-			<!-- Box -->
-			<a href="projects/project_01.html" class="box ex-link">
-				<!-- Box Image -->
-				<div class="item_image">
-					<!-- Image SRC -->
-					<img src="images/portfolio/featured03.jpg" alt="Crexis" />
-				</div>
-				<!-- Item Texts -->
-				<div class="item_texts">
-					<!-- Header -->
-					<h2 class="normal antialiased oswald uppercase">
-						Office Work
-					</h2>
-					<!-- Description -->
-					<p class="light">
-						Photography
-					</p>
-				</div>
-			</a>
-			<!-- End Box -->
-
-			<!-- Box -->
-			<a href="projects/project_01.html" class="box ex-link">
-				<!-- Box Image -->
-				<div class="item_image">
-					<!-- Image SRC -->
-					<img src="images/portfolio/featured04.jpg" alt="Crexis" />
-				</div>
-				<!-- Item Texts -->
-				<div class="item_texts">
-					<!-- Header -->
-					<h2 class="normal antialiased oswald uppercase">
-						MilkShake
-					</h2>
-					<!-- Description -->
-					<p class="light">
-						Photography
-					</p>
-				</div>
-			</a>
-			<!-- End Box -->
-
-			<!-- Box -->
-			<a href="projects/project_01.html" class="box ex-link">
-				<!-- Box Image -->
-				<div class="item_image">
-					<!-- Image SRC -->
-					<img src="images/portfolio/featured05.jpg" alt="Crexis" />
-				</div>
-				<!-- Item Texts -->
-				<div class="item_texts">
-					<!-- Header -->
-					<h2 class="normal antialiased oswald uppercase">
-						Coffee
-					</h2>
-					<!-- Description -->
-					<p class="light">
-						Photography
-					</p>
-				</div>
-			</a>
-			<!-- End Box -->
-
-		</div>
-		<!-- End Featured Slider -->
-	</section>
-	<!-- End Featured Works Alternative Section -->
-
-
-
-
-
-
-
-
-
-	<!-- Page Note Section -->
-	<section class="page-note light-note">
-		<!-- Note -->
-		<h4 class="uppercase italic t-center">
-			Clean, responsive and professional design with powerfull code!
-		</h4>
-	</section>
-	<!-- End Page Note Section -->
-
-
-
-
 
 
 
