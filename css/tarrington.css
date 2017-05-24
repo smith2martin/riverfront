@@ -2,3 +2,36 @@
 .vrview-intro {
 	color: #dadada;
 }
+
+a.colored:hover {
+	color: yellowgreen;
+	text-decoration: underline;
+}
+
+ol.list, ul.list {
+	text-align: left !important;
+	margin: 20px 10px 20px 30px;
+}
+
+ol.list li, ul.list li {
+	display: block;
+}
+
+ol.list {
+	list-style-type: decimal;
+	counter-reset: LIST-ITEMS;
+}
+
+ol.list li:before {
+	content: counter( LIST-ITEMS ) ".";
+	counter-increment: LIST-ITEMS;
+	padding-right: 0.25em;
+}
+
+.tarrington-box {
+	border: 1px solid #dadada;
+	margin: 20px auto;
+	text-align: left;
+	border-radius: 5px;
+	padding: 20px;
+}
