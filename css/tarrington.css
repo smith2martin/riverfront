@@ -39,3 +39,8 @@ ol.list li:before {
 .boxes.boxes-type-3 .box-icon a.changeable-icon.numbered {
 	line-height: 60px;
 }
+
+.planning-background {
+		background-image:url(../images/tarrington/planning/original_rendering_1920x1080.jpg);
+		background-size: cover;
+}
