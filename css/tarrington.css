@@ -34,6 +34,7 @@ ol.list li:before {
 	text-align: left;
 	border-radius: 5px;
 	padding: 20px;
+	text-align: justify;
 }
 
 .boxes.boxes-type-3 .box-icon a.changeable-icon.numbered {
