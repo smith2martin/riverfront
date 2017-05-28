@@ -1,5 +1,5 @@
 /* ==============================================
-GOOGLE MAP
+GOOGLE MAP - key: AIzaSyBFgj6CpSnPIDbhzHqiAMT_fo1mrHJIVo4
 =============================================== */
 
     $(document).ready(function() {
