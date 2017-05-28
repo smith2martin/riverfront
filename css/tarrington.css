@@ -45,3 +45,8 @@ ol.list li:before {
 		background-image:url(../images/tarrington/planning/original_rendering_1920x1080.jpg);
 		background-size: cover;
 }
+
+.contact-background {
+	background-image:url(../images/tarrington/sunset.jpg);
+	background-size: cover;
+}
