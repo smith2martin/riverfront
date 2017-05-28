@@ -8,7 +8,7 @@ GOOGLE MAP
 
             // Map Coordination
 
-            var latlng = new google.maps.LatLng(41.8756651,-87.8126726);
+            var latlng = new google.maps.LatLng(37.5566919,-77.629604);
 
             // Map Options
             var myOptions = {
@@ -34,7 +34,7 @@ GOOGLE MAP
 
             // First Marker Coordination
             
-            var myLatlng = new google.maps.LatLng(41.8748651,-87.7956726);
+            var myLatlng = new google.maps.LatLng(37.5566919,-77.629604);
 
             // Your Texts 
 
@@ -43,12 +43,12 @@ GOOGLE MAP
               '</div>'+
               '<h4>' +
 
-              'Office 1'+
+              'Tarrington Riverfront Park'+
 
               '</h4>'+
               '<p>' +
 
-              'Your description is here.' +
+              'Wish you were here!' +
 
               '</p>'+
               '</div>';
@@ -57,7 +57,7 @@ GOOGLE MAP
             var marker = new google.maps.Marker({
                   position: myLatlng,
                   map: map,
-                  title: 'Hello World!',
+                  title: 'Tarrington Riverfront Park',
                   icon: image
               });
 
@@ -72,48 +72,5 @@ GOOGLE MAP
               });
 
              /* ========= End First Marker ========= */
-
-
-
-
-             /* ========= Second Marker ========= */
-
-             // Second Marker Coordination
-
-             var myLatlngSecond = new google.maps.LatLng(41.8768651,-87.8256726);
-
-             // Your Texts
-
-             var contentStringSecond = '<div id="content">'+
-              '<div id="siteNotice">'+
-              '</div>'+
-              '<h4>' +
-
-              'Office 2'+
-
-              '</h4>'+
-              '<p>' +
-
-              'Your description is here.' +
-
-              '</p>'+
-              '</div>';
-
-              var infowindowSecond = new google.maps.InfoWindow({
-                  content: contentStringSecond,
-              });
-
-             var markerSecond = new google.maps.Marker({
-                  position: myLatlngSecond,
-                  map: map,
-                  title: 'Hello World!',
-                  icon: image
-              });
-
-             google.maps.event.addListener(markerSecond, 'click', function() {
-                infowindowSecond.open(map,markerSecond);
-              });
-
-             /* ========= End Second Marker ========= */
         
         });
