@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4637c18-0cd3-4731-a691-31f7e762032b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/timeline/tarrington/01_04_2017.html" afterPath="$PROJECT_DIR$/projects/timeline/tarrington/01_04_2017.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/timeline/tarrington/03_04_2017.html" afterPath="$PROJECT_DIR$/projects/timeline/tarrington/03_04_2017.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/timeline/tarrington/05_20_2017.html" afterPath="$PROJECT_DIR$/projects/timeline/tarrington/05_20_2017.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/timeline/tarrington/07_04_2016.html" afterPath="$PROJECT_DIR$/projects/timeline/tarrington/07_04_2016.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tarrington.html" afterPath="$PROJECT_DIR$/tarrington.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,11 +22,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tarrington.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tarrington.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tarrington.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="1586" column="7" lean-forward="false" selection-start-line="1586" selection-start-column="7" selection-end-line="1586" selection-end-column="7" />
+            <state relative-caret-position="234">
+              <caret line="1524" column="27" lean-forward="false" selection-start-line="1524" selection-start-column="23" selection-end-line="1524" selection-end-column="27" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#3;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -65,8 +69,8 @@
       <file leaf-file-name="01_04_2017.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/01_04_2017.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+            <state relative-caret-position="285">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -76,7 +80,7 @@
         <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/03_04_2017.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
+              <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -86,17 +90,17 @@
         <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/05_20_2017.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="18" column="106" lean-forward="false" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="106" />
+              <caret line="18" column="129" lean-forward="false" selection-start-line="18" selection-start-column="129" selection-end-line="18" selection-end-column="129" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="07_04_2016.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="07_04_2016.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/07_04_2016.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
+            <state relative-caret-position="240">
+              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -124,6 +128,7 @@
       <find>key</find>
       <find>creek</find>
       <find>theme_</find>
+      <find>href</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -132,12 +137,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/projects/timeline/tarrington/03_04_2017.html" />
-        <option value="$PROJECT_DIR$/projects/timeline/tarrington/05_20_2017.html" />
-        <option value="$PROJECT_DIR$/projects/timeline/tarrington/07_04_2016.html" />
         <option value="$PROJECT_DIR$/css/tarrington.css" />
         <option value="$PROJECT_DIR$/js/google-map.js" />
         <option value="$PROJECT_DIR$/tarrington.html" />
+        <option value="$PROJECT_DIR$/projects/timeline/tarrington/01_04_2017.html" />
+        <option value="$PROJECT_DIR$/projects/timeline/tarrington/03_04_2017.html" />
+        <option value="$PROJECT_DIR$/projects/timeline/tarrington/05_20_2017.html" />
+        <option value="$PROJECT_DIR$/projects/timeline/tarrington/07_04_2016.html" />
       </list>
     </option>
   </component>
@@ -232,34 +238,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tarrington" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="riverfront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="riverfront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="riverfront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="riverfront" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -591,12 +569,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1495987599707</updated>
-      <workItem from="1495987613625" duration="5832000" />
+      <workItem from="1495987613625" duration="6224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5832000" />
+    <option name="totallyTimeSpent" value="6224000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -639,38 +617,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/03_04_2017.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="96" lean-forward="false" selection-start-line="18" selection-start-column="96" selection-end-line="18" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/05_20_2017.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="106" lean-forward="false" selection-start-line="18" selection-start-column="106" selection-end-line="18" selection-end-column="106" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/07_04_2016.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/01_04_2017.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -697,13 +643,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tarrington.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="1586" column="7" lean-forward="false" selection-start-line="1586" selection-start-column="7" selection-end-line="1586" selection-end-column="7" />
+        <state relative-caret-position="234">
+          <caret line="1524" column="27" lean-forward="false" selection-start-line="1524" selection-start-column="23" selection-end-line="1524" selection-end-column="27" />
           <folding>
             <element signature="n#style#0;n#div#1;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#3;n#section#6;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/01_04_2017.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/03_04_2017.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="84" lean-forward="false" selection-start-line="18" selection-start-column="84" selection-end-line="18" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/05_20_2017.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="129" lean-forward="false" selection-start-line="18" selection-start-column="129" selection-end-line="18" selection-end-column="129" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/timeline/tarrington/07_04_2016.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
