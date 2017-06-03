@@ -911,7 +911,7 @@
 				<!-- Contact Form -->
 				<div class="contact_form type-2 white-form">
 					<!-- Form -->
-					<form id="register_form" name="rform" class="clearfix form oswald normal antialiased" method="post" action="php/mail.php">
+					<form id="register_form" name="rform" class="clearfix form oswald normal antialiased" method="post" action="" target="register-target">
 						<!-- 50% inputs -->
 						<div class="fullwidth clearfix">
 							<!-- Left Item -->
@@ -937,7 +937,7 @@
 							</div>
 						</div>
 						<!-- End 50% inputs -->
-						
+						<input type="text" name="registerStreetAddress" id="registerStreetAddress" required placeholder="Street Address">
 						<textarea name="registerDescription" id="registerDescription" required placeholder="Describe your Boat(s)"></textarea>
 						<textarea name="registerComments" id="registerComments" placeholder="Any Additional Comments"></textarea>
 
@@ -945,7 +945,7 @@
 						<input type="text" name="verify" id="verify" required placeholder="">
 
 						<!-- Send Button -->
-						<button type="submit" id="submit" name="submit" disabled="disabled">Send</button>
+						<button type="submit" id="submit" name="submit">Send</button>
 						<!-- Error Message -->
 						<div class="error_message">
 							<p class="t-left no-margin">
@@ -955,7 +955,7 @@
 							</p>
 						</div>
 						<!-- Submit Message -->
-						<div class="submit_message">
+						<div id="registerSubmitFeedback" class="submit_message">
 							<p class="t-left no-margin">
 								<!-- Error Message Icon -->
 								<i class="fa fa-check"></i>
@@ -964,6 +964,8 @@
 						</div>
 					</form>
 					<!-- End Form -->
+
+					<iframe src="#" id="register-target" name="register-target" style="visibility:hidden; height: 1px; width: 1px;"></iframe>
 				</div>
 				<!-- End Form Div -->
 			</div>
@@ -983,7 +985,7 @@
 
 
 	<!-- Timeline Section -->
-	<section id="timeline" class="container planning-background parallax7 light-bg">
+	<section id="timeline" class="container planning-background parallax7 light-bg" style="border-bottom: none;">
 
 		<!-- Featured Works Inner -->
 		<div class="inner t-center animated" data-animation="fadeIn" data-animation-delay="100">
@@ -1219,7 +1221,7 @@
 			<!-- Bottom Buttons -->
 			<div class="content-buttons">
 				<!-- First Button -->
-				<a href="#contact" class="t-center content-button scroll">
+				<a href="mailto:tarringtonriverfront@gmail.com" class="t-center content-button scroll">
 					<p class="uppercase">Send us a Message</p>
 					<p class="normal">and we'll loop you in</p>
 				</a>
@@ -1234,89 +1236,9 @@
 
 
 
-	<!-- Contact -->
-	<section id="contact" class="relative contact">
-
-		<!-- Inner -->
-		<div class="inner t-center clearfix animated" data-animation="fadeIn" data-animation-delay="800">
-			<!-- Header -->
-			<h1 class="header header-style-2 dark oswald uppercase t-center ">
-				Contact Us to Get Involved!
-			</h1>
-			<!-- Header Text -->
-			<p class="light t-center">
-				We'll loop you into the next meeting or let you know about the projects we're currently planning in case you want to get involved with one of them. <span class="colored">Thanks for your interest!</span>
-			</p>
-
-			<!-- Form -->
-			<div class="fullwidth clearfix">
-
-				<!-- Contact Form -->
-				<div class="contact_form type-2 white-form">
-					<!-- Form -->
-					<form id="contact_form" name="cform" class="clearfix form oswald normal antialiased" method="post" action="php/mail.php">
-						<!-- 50% inputs -->
-						<div class="fullwidth clearfix">
-							<!-- Left Item -->
-							<div class="f-left">
-								<!-- Name -->
-								<input type="text" name="name" id="name" required placeholder="Name">
-							</div>
-							<!-- Right Item -->
-							<div class="f-right">
-								<!-- Email -->
-								<input type="email" name="email" id="email" required placeholder="E-Mail">
-							</div>
-						</div>
-						<!-- End 50% inputs -->
-						<!-- Subject -->
-						<input type="text" name="subject" id="subject" required placeholder="Subject">
-
-						<!-- Message -->
-						<textarea name="message" id="message" required placeholder="Message"></textarea>
-
-						<!-- Verify Math / You can delete blockers for Math Verify -->
-						<input type="text" name="verify" id="verify" required placeholder="">
-
-						<!-- Send Button -->
-						<button type="submit" id="submitContact" name="submit" disabled="disabled">Send</button>
-						<!-- Error Message -->
-						<div class="error_message">
-							<p class="t-left no-margin">
-								<!-- Error Message Icon -->
-								<i class="fa fa-warning"></i>
-								Validation error occured. Please enter the fields and submit it again.
-							</p>
-						</div>
-						<!-- Submit Message -->
-						<div class="submit_message">
-							<p class="t-left no-margin">
-								<!-- Error Message Icon -->
-								<i class="fa fa-check"></i>
-								Thank You ! Your email has been delivered.
-							</p>
-						</div>
-					</form>
-					<!-- End Form -->
-				</div>
-				<!-- End Form Div -->
-			</div>
-			<!-- End Contact Form -->
-		</div>
-		<!-- End Inner -->
-	</section>
-	<!-- End Contact Section -->
-
-
-
-
-
-
-
-
 
 	<!-- Address Type2 -->
-	<section class="address type-2 contact-background parallax9 xdark-bg">
+	<section class="address type-2 contact-background parallax9 xdark-bg" id="contact">
 		<!-- Boxed div -->
 		<div class="boxed clearfix relative">
 
@@ -1332,7 +1254,7 @@
 					<span class="arrow"></span>
 					<!-- Header -->
 					<h3 class="no-padding no-margin extra-light">
-						Phone:
+						Phone
 					</h3>
 					<!-- Detail -->
 					<p class="no-margin no-padding light">
@@ -1344,7 +1266,7 @@
 			<!-- End Box -->
 
 			<!-- Box -->
-			<a class="box clearfix block f-left" href="mailto:help@tarringtonriverfront.com">
+			<a class="box clearfix block f-left" href="mailto:tarringtonriverfront@gmail.com">
 				<!-- Icon -->
 				<div class="f-left icon">
 					<i class="fa fa-envelope"></i>
@@ -1359,7 +1281,7 @@
 					</h3>
 					<!-- Detail -->
 					<p class="no-margin no-padding extra-light">
-						help@tarringtonriverfront.com
+						tarringtonriverfront@gmail.com
 					</p>
 				</div>
 				<!-- End Texts -->
@@ -1378,7 +1300,7 @@
 					<span class="arrow"></span>
 					<!-- Header -->
 					<h3 class="no-padding no-margin extra-light">
-						Address;
+						Address
 					</h3>
 					<!-- Detail -->
 					<p class="no-margin no-padding extra-light">
@@ -1511,6 +1433,30 @@
 		$(document).ready(function() {
 			// removed for now: 
 			// loadVrView();
+
+            $('#register_form').on('submit',function(){
+                var registerName = encodeURIComponent($('#registerName').val());
+                var registerEmail = encodeURIComponent($('#registerEmail').val());
+                var registerBerthNumber = encodeURIComponent($('#registerBerthNumber').val());
+                var registerPhoneNumber = encodeURIComponent($('#registerPhoneNumber').val());
+                var registerStreetAddress = encodeURIComponent($('#registerStreetAddress').val());
+                var registerDescription = encodeURIComponent($('#registerDescription').val());
+                var registerComments = encodeURIComponent($('#registerComments').val());
+				
+                var nameID = "entry.606478947";
+                var emailID = "entry.1550551130";
+                var berthID = "entry.452638727";
+                var phoneID = "entry.265767952";
+                var streetID = "entry.596795995";
+                var descriptionID = "entry.1371606691";
+                var commentID = "entry.111241773";
+
+                var baseURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdZqlUfJ4V1-2JISXzOPgRTFoZCZG3W01zXj1YeKxBaNKMyew/formResponse?';
+                var submitRef = '&submit=Submit';
+                var submitURL = (baseURL + nameID + "=" + registerName + "&" + emailID + "=" + registerEmail + "&" + berthID + "=" + registerBerthNumber + "&" + phoneID + "=" + registerPhoneNumber + "&" + streetID + "=" + registerStreetAddress + "&" + descriptionID + "=" + registerDescription + "&" + commentID + "=" + registerComments + submitRef);
+                $(this)[0].action=submitURL;
+                $('#registerSubmitFeedback').show();
+            });
 		});
 		
 
