@@ -3158,7 +3158,7 @@
 	}
 
 	.feature-boxes.type-3 .feature-box .feature-text p{
-		color:#9f9f9f;
+		color:#777;
 	}
 
 	section#features .feature-boxes.type-3 .feature-box:hover .feature-icon{
@@ -5741,7 +5741,7 @@
 
 	.news .box .details p.post_message{
 		font-size:13px;
-		color:#aaa;
+		color:#777;
 		font-weight: 300;
 	}
 
