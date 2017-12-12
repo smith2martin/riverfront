@@ -99,8 +99,8 @@
         $(document).ready(function() {
             // removed for now:
             // loadVrView();
-console.log('MJS not scrolling');
-            // setTimeout("console.log('MJS scrolling to top 2'); window.scrollTo(0,0);", 1000);
+
+            setTimeout("console.log('MJS scrolling to top 3 seconds'); window.scrollTo(0,0);", 3000);
 
             $('#register_form').on('submit',function(){
                 var registerName = encodeURIComponent($('#registerName').val());
@@ -1150,7 +1150,7 @@ console.log('MJS not scrolling');
 		</div>
 
 		<!-- Begin Timeline -->
-		<div class="timelineFlat timeline tl3  animated" data-animation="fadeIn" data-animation-delay="400">
+		<div class="timelineFlat timeline tl3 animated" data-animation="fadeIn" data-animation-delay="400">
 
 			<!-- Item -->
 			<div class="item" data-id="07/04/2016" data-description="Early Park Plan">
@@ -1333,12 +1333,6 @@ console.log('MJS not scrolling');
 				</div>
 			</div>
 			<!-- End Item Open -->
-
-
-
-
-
-
 
 
 		</div>
