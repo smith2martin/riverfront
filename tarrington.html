@@ -1460,6 +1460,8 @@
 			// removed for now: 
 			// loadVrView();
 
+            setTimeout("window.scrollTo(0,0)", 250);
+
             $('#register_form').on('submit',function(){
                 var registerName = encodeURIComponent($('#registerName').val());
                 var registerEmail = encodeURIComponent($('#registerEmail').val());
