@@ -50,6 +50,116 @@
 	<link rel="stylesheet" href="css/tarrington.css" />
 
 	<!-- End CSS Files -->
+
+	<!-- JS Files -->
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.appear.js"></script>
+	<script type="text/javascript" src="js/waypoint.js"></script>
+	<script type="text/javascript" src="js/modernizr-latest.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/SmoothScroll.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/jquery.superslides.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
+	<script type="text/javascript" src="js/jquery.cubeportfolio.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+	<!-- maps -->
+	<script type="text/javascript" src="js/google-map.js"></script>
+	<script type="text/javascript" src="js/jquery.timeline.js"></script>
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+	<!-- Revolution Slider -->
+	<script type="text/javascript" src="js/rev_slider/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/rev_slider/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="js/rev_slider/rev_plugins.js"></script>
+	<!-- Contact Form -->
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/contact-form.js"></script>
+	<!-- Twitter -->
+	<script type="text/javascript" src="js/tweecool.min.js"></script>
+	<script type="text/javascript" src="js/tweecool.js"></script>
+	<!-- Page Plugins -->
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<!-- Portfolio Plugins -->
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<!-- Theme Panel -->
+	<!--
+	<script type="text/javascript" src="theme_panel/themepanel.js"></script>
+	<script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+	-->
+
+
+
+	<script>
+
+        $(document).ready(function() {
+            // removed for now:
+            // loadVrView();
+
+            setTimeout("console.log('MJS scrolling to top 2'); window.scrollTo(0,0);", 1000);
+
+            $('#register_form').on('submit',function(){
+                var registerName = encodeURIComponent($('#registerName').val());
+                var registerEmail = encodeURIComponent($('#registerEmail').val());
+                var registerBerthNumber = encodeURIComponent($('#registerBerthNumber').val() || 'W');
+                var registerPhoneNumber = encodeURIComponent($('#registerPhoneNumber').val());
+                var registerStreetAddress = encodeURIComponent($('#registerStreetAddress').val());
+                var registerDescription = encodeURIComponent($('#registerDescription').val());
+                var registerComments = encodeURIComponent($('#registerComments').val());
+
+                var nameID = "entry.606478947";
+                var emailID = "entry.1550551130";
+                var berthID = "entry.452638727";
+                var phoneID = "entry.265767952";
+                var streetID = "entry.596795995";
+                var descriptionID = "entry.1371606691";
+                var commentID = "entry.111241773";
+
+                var baseURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdZqlUfJ4V1-2JISXzOPgRTFoZCZG3W01zXj1YeKxBaNKMyew/formResponse?';
+                var submitRef = '&submit=Submit';
+                var submitURL = (baseURL + nameID + "=" + registerName + "&" + emailID + "=" + registerEmail + "&" + berthID + "=" + registerBerthNumber + "&" + phoneID + "=" + registerPhoneNumber + "&" + streetID + "=" + registerStreetAddress + "&" + descriptionID + "=" + registerDescription + "&" + commentID + "=" + registerComments + submitRef);
+                $(this)[0].action=submitURL;
+                $('#registerSubmitFeedback').show();
+            });
+        });
+
+		/*
+		 function loadVrView() {
+
+		 var vrView1 = new VRView.Player('#vrview1', {
+		 image: 'images/tarrington/vr/endOfMainPath.vr.jpg',
+		 is_stereo: false,
+		 width: '100%',
+		 height: 400
+		 });
+
+		 var vrView2 = new VRView.Player('#vrview2', {
+		 image: 'images/tarrington/vr/onTheDock.vr.jpg',
+		 is_stereo: false,
+		 width: '100%',
+		 height: 400
+		 });
+
+		 var vrView3 = new VRView.Player('#vrview3', {
+		 image: 'images/tarrington/vr/halfWayDownLeft.vr.jpg',
+		 is_stereo: false,
+		 width: '100%',
+		 height: 400
+		 });
+
+		 var vrView4 = new VRView.Player('#vrview4', {
+		 image: 'images/tarrington/vr/downriver.vr.jpg',
+		 is_stereo: false,
+		 width: '100%',
+		 height: 400
+		 });
+		 }
+		 */
+	</script>
  
 </head>
 
@@ -1411,115 +1521,7 @@
 
 
 
-	<!-- JS Files -->
-	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.appear.js"></script>
-	<script type="text/javascript" src="js/waypoint.js"></script>
-	<script type="text/javascript" src="js/modernizr-latest.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/SmoothScroll.js"></script>
-	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="js/jquery.superslides.js"></script>
-	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
-	<script type="text/javascript" src="js/jquery.cubeportfolio.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-	<!-- maps -->
-	<script type="text/javascript" src="js/google-map.js"></script>
-	<script type="text/javascript" src="js/jquery.timeline.js"></script>
-	<script type="text/javascript" src="js/skrollr.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
-	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
-	<!-- Revolution Slider -->
-	<script type="text/javascript" src="js/rev_slider/jquery.themepunch.revolution.min.js"></script>
-	<script type="text/javascript" src="js/rev_slider/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="js/rev_slider/rev_plugins.js"></script>
-	<!-- Contact Form -->
-	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="js/contact-form.js"></script>
-	<!-- Twitter -->
-	<script type="text/javascript" src="js/tweecool.min.js"></script>
-	<script type="text/javascript" src="js/tweecool.js"></script>
-	<!-- Page Plugins -->
-	<script type="text/javascript" src="js/plugins.js"></script>
-	<!-- Portfolio Plugins -->
-	<script type="text/javascript" src="js/portfolio.js"></script>
-	<!-- Theme Panel -->
-	<!--
-	<script type="text/javascript" src="theme_panel/themepanel.js"></script>
-	<script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
-	-->
-	
 
-
-	<script>
-		
-		$(document).ready(function() {
-			// removed for now: 
-			// loadVrView();
-
-            setTimeout("console.log('MJS scrolling to top 2'); window.scrollTo(0,0);", 1000);
-
-            $('#register_form').on('submit',function(){
-                var registerName = encodeURIComponent($('#registerName').val());
-                var registerEmail = encodeURIComponent($('#registerEmail').val());
-                var registerBerthNumber = encodeURIComponent($('#registerBerthNumber').val() || 'W');
-                var registerPhoneNumber = encodeURIComponent($('#registerPhoneNumber').val());
-                var registerStreetAddress = encodeURIComponent($('#registerStreetAddress').val());
-                var registerDescription = encodeURIComponent($('#registerDescription').val());
-                var registerComments = encodeURIComponent($('#registerComments').val());
-
-                var nameID = "entry.606478947";
-                var emailID = "entry.1550551130";
-                var berthID = "entry.452638727";
-                var phoneID = "entry.265767952";
-                var streetID = "entry.596795995";
-                var descriptionID = "entry.1371606691";
-                var commentID = "entry.111241773";
-
-                var baseURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdZqlUfJ4V1-2JISXzOPgRTFoZCZG3W01zXj1YeKxBaNKMyew/formResponse?';
-                var submitRef = '&submit=Submit';
-                var submitURL = (baseURL + nameID + "=" + registerName + "&" + emailID + "=" + registerEmail + "&" + berthID + "=" + registerBerthNumber + "&" + phoneID + "=" + registerPhoneNumber + "&" + streetID + "=" + registerStreetAddress + "&" + descriptionID + "=" + registerDescription + "&" + commentID + "=" + registerComments + submitRef);
-                $(this)[0].action=submitURL;
-                $('#registerSubmitFeedback').show();
-            });
-		});
-		
-/*
-		function loadVrView() {
-			
-			var vrView1 = new VRView.Player('#vrview1', {
-				image: 'images/tarrington/vr/endOfMainPath.vr.jpg',
-				is_stereo: false,
-				width: '100%',
-				height: 400
-			});
-			
-			var vrView2 = new VRView.Player('#vrview2', {
-				image: 'images/tarrington/vr/onTheDock.vr.jpg',
-				is_stereo: false,
-				width: '100%',
-				height: 400
-			});
-			
-			var vrView3 = new VRView.Player('#vrview3', {
-				image: 'images/tarrington/vr/halfWayDownLeft.vr.jpg',
-				is_stereo: false,
-				width: '100%',
-				height: 400
-			});
-			
-			var vrView4 = new VRView.Player('#vrview4', {
-				image: 'images/tarrington/vr/downriver.vr.jpg',
-				is_stereo: false,
-				width: '100%',
-				height: 400
-			});
-		}
-*/
-	</script>
 
 </body>
 <!-- Body End -->
