@@ -12,7 +12,7 @@ TIMELINE OPTIONS
       closeText : 'x',
       itemClass : '.item',
       itemOpenClass : '.item_open',
-      startItem : '27/12/2014',
+      startItem : '27/12/2014'
     });
 
     // Timeline Ajax Item Page

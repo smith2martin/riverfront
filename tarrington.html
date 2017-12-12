@@ -50,116 +50,6 @@
 	<link rel="stylesheet" href="css/tarrington.css" />
 
 	<!-- End CSS Files -->
-
-	<!-- JS Files -->
-	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery.appear.js"></script>
-	<script type="text/javascript" src="js/waypoint.js"></script>
-	<script type="text/javascript" src="js/modernizr-latest.js"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/SmoothScroll.js"></script>
-	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-	<script type="text/javascript" src="js/jquery.superslides.js"></script>
-	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
-	<script type="text/javascript" src="js/jquery.cubeportfolio.js"></script>
-	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
-	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
-	<!-- maps -->
-	<script type="text/javascript" src="js/google-map.js"></script>
-	<script type="text/javascript" src="js/jquery.timeline.js"></script>
-	<script type="text/javascript" src="js/skrollr.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
-	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
-	<!-- Revolution Slider -->
-	<script type="text/javascript" src="js/rev_slider/jquery.themepunch.revolution.min.js"></script>
-	<script type="text/javascript" src="js/rev_slider/jquery.themepunch.tools.min.js"></script>
-	<script type="text/javascript" src="js/rev_slider/rev_plugins.js"></script>
-	<!-- Contact Form -->
-	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
-	<script type="text/javascript" src="js/contact-form.js"></script>
-	<!-- Twitter -->
-	<script type="text/javascript" src="js/tweecool.min.js"></script>
-	<script type="text/javascript" src="js/tweecool.js"></script>
-	<!-- Page Plugins -->
-	<script type="text/javascript" src="js/plugins.js"></script>
-	<!-- Portfolio Plugins -->
-	<script type="text/javascript" src="js/portfolio.js"></script>
-	<!-- Theme Panel -->
-	<!--
-	<script type="text/javascript" src="theme_panel/themepanel.js"></script>
-	<script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
-	-->
-
-
-
-	<script>
-
-        $(document).ready(function() {
-            // removed for now:
-            // loadVrView();
-
-            setTimeout("console.log('MJS scrolling to top 3 seconds'); window.scrollTo(0,0);", 3000);
-
-            $('#register_form').on('submit',function(){
-                var registerName = encodeURIComponent($('#registerName').val());
-                var registerEmail = encodeURIComponent($('#registerEmail').val());
-                var registerBerthNumber = encodeURIComponent($('#registerBerthNumber').val() || 'W');
-                var registerPhoneNumber = encodeURIComponent($('#registerPhoneNumber').val());
-                var registerStreetAddress = encodeURIComponent($('#registerStreetAddress').val());
-                var registerDescription = encodeURIComponent($('#registerDescription').val());
-                var registerComments = encodeURIComponent($('#registerComments').val());
-
-                var nameID = "entry.606478947";
-                var emailID = "entry.1550551130";
-                var berthID = "entry.452638727";
-                var phoneID = "entry.265767952";
-                var streetID = "entry.596795995";
-                var descriptionID = "entry.1371606691";
-                var commentID = "entry.111241773";
-
-                var baseURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdZqlUfJ4V1-2JISXzOPgRTFoZCZG3W01zXj1YeKxBaNKMyew/formResponse?';
-                var submitRef = '&submit=Submit';
-                var submitURL = (baseURL + nameID + "=" + registerName + "&" + emailID + "=" + registerEmail + "&" + berthID + "=" + registerBerthNumber + "&" + phoneID + "=" + registerPhoneNumber + "&" + streetID + "=" + registerStreetAddress + "&" + descriptionID + "=" + registerDescription + "&" + commentID + "=" + registerComments + submitRef);
-                $(this)[0].action=submitURL;
-                $('#registerSubmitFeedback').show();
-            });
-        });
-
-		/*
-		 function loadVrView() {
-
-		 var vrView1 = new VRView.Player('#vrview1', {
-		 image: 'images/tarrington/vr/endOfMainPath.vr.jpg',
-		 is_stereo: false,
-		 width: '100%',
-		 height: 400
-		 });
-
-		 var vrView2 = new VRView.Player('#vrview2', {
-		 image: 'images/tarrington/vr/onTheDock.vr.jpg',
-		 is_stereo: false,
-		 width: '100%',
-		 height: 400
-		 });
-
-		 var vrView3 = new VRView.Player('#vrview3', {
-		 image: 'images/tarrington/vr/halfWayDownLeft.vr.jpg',
-		 is_stereo: false,
-		 width: '100%',
-		 height: 400
-		 });
-
-		 var vrView4 = new VRView.Player('#vrview4', {
-		 image: 'images/tarrington/vr/downriver.vr.jpg',
-		 is_stereo: false,
-		 width: '100%',
-		 height: 400
-		 });
-		 }
-		 */
-	</script>
  
 </head>
 
@@ -1149,11 +1039,11 @@
 			<img src="images/timeline/loadingAnimation.gif" alt="" />
 		</div>
 
-		<!-- Begin Timeline -->
+		<!-- Begin Timeline - MJS: removed classes:  -->
 		<div class="timelineFlat timeline tl3 animated" data-animation="fadeIn" data-animation-delay="400">
 
 			<!-- Item -->
-			<div class="item" data-id="07/04/2016" data-description="Early Park Plan">
+			<div class="item" data-id="04/07/2016" data-description="Early Park Plan">
 				<!-- Item Image -->
 				<a class="image-link" data-description="ZOOM IN" href="images/tarrington/planning/original_rendering_1920x1080.jpg">
 					<img src="images/tarrington/planning/original_rendering_480x350.jpg" alt="Early Park Plan"/>
@@ -1173,13 +1063,13 @@
 					</div>
 					<!-- Right Area -->
 					<div class="right-buttons f-right">
-						<!-- Detail Page Link 
+						<!-- Detail Page Link
 						<a href="projects/project_01.html" class="detail_page ex-link">
 							<i class="fa fa-plus"></i>
 						</a>
 						-->
 						<!-- Read More -->
-						<a class="read_more" data-id="07/04/2016">
+						<a class="read_more" data-id="04/07/2016">
 							<i class="fa fa-angle-right"></i>
 						</a>
 					</div>
@@ -1189,17 +1079,17 @@
 			<!-- End Item -->
 
 			<!-- Item Open -->
-			<div class="item_open" data-id="07/04/2016" data-access="projects/timeline/tarrington/07_04_2016.html">
+			<div class="item_open" data-id="04/07/2016" data-access="projects/timeline/tarrington/07_04_2016.html">
 				<div class="item_open_content">
 					<img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="" />
 				</div>
 			</div>
 			<!-- End Item Open -->
-			
-			
-			
+
+
+
 			<!-- Item -->
-			<div class="item" data-id="01/04/2017" data-description="Dock Installed">
+			<div class="item" data-id="04/01/2017" data-description="Dock Installed">
 				<!-- Item Image -->
 				<a class="image-link" data-description="ZOOM IN" href="images/tarrington/sunsetOnTheDock1.jpg">
 					<img src="images/tarrington/sunsetOnTheDock1_480x350.jpg" alt="Dock Installed"/>
@@ -1219,13 +1109,13 @@
 					</div>
 					<!-- Right Area -->
 					<div class="right-buttons f-right">
-						<!-- Detail Page Link 
+						<!-- Detail Page Link
 						<a href="projects/project_01.html" class="detail_page ex-link">
 							<i class="fa fa-plus"></i>
 						</a>
 						-->
 						<!-- Read More -->
-						<a class="read_more" data-id="01/04/2017">
+						<a class="read_more" data-id="04/01/2017">
 							<i class="fa fa-angle-right"></i>
 						</a>
 					</div>
@@ -1235,7 +1125,7 @@
 			<!-- End Item -->
 
 			<!-- Item Open -->
-			<div class="item_open" data-id="01/04/2017" data-access="projects/timeline/tarrington/01_04_2017.html">
+			<div class="item_open" data-id="04/01/2017" data-access="projects/timeline/tarrington/01_04_2017.html">
 				<div class="item_open_content">
 					<img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="" />
 				</div>
@@ -1245,7 +1135,7 @@
 
 
 			<!-- Item -->
-			<div class="item" data-id="03/04/2017" data-description="Path Extension">
+			<div class="item" data-id="04/03/2017" data-description="Path Extension">
 				<!-- Item Image -->
 				<a class="image-link" data-description="ZOOM IN" href="images/tarrington/woodsPath.jpg">
 					<img src="images/tarrington/woodsPath_480x350.jpg" alt="Path Extension"/>
@@ -1271,7 +1161,7 @@
 						</a>
 						-->
 						<!-- Read More -->
-						<a class="read_more" data-id="03/04/2017">
+						<a class="read_more" data-id="04/03/2017">
 							<i class="fa fa-angle-right"></i>
 						</a>
 					</div>
@@ -1281,7 +1171,7 @@
 			<!-- End Item -->
 
 			<!-- Item Open -->
-			<div class="item_open" data-id="03/04/2017" data-access="projects/timeline/tarrington/03_04_2017.html">
+			<div class="item_open" data-id="04/03/2017" data-access="projects/timeline/tarrington/03_04_2017.html">
 				<div class="item_open_content">
 					<img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="" />
 				</div>
@@ -1291,7 +1181,7 @@
 
 
 			<!-- Item -->
-			<div class="item" data-id="05/20/2017" data-description="Exploration Station">
+			<div class="item" data-id="20/05/2017" data-description="Exploration Station">
 				<!-- Item Image -->
 				<a class="image-link" data-description="ZOOM IN" href="images/tarrington/beckett.jpg">
 					<img src="images/tarrington/beckett_480x350.jpg" alt="Exploration Station"/>
@@ -1311,13 +1201,13 @@
 					</div>
 					<!-- Right Area -->
 					<div class="right-buttons f-right">
-						<!-- Detail Page Link 
+						<!-- Detail Page Link
 						<a href="projects/project_01.html" class="detail_page ex-link">
 							<i class="fa fa-plus"></i>
 						</a>
 						-->
 						<!-- Read More -->
-						<a class="read_more" data-id="05/20/2017">
+						<a class="read_more" data-id="20/05/2017">
 							<i class="fa fa-angle-right"></i>
 						</a>
 					</div>
@@ -1327,7 +1217,7 @@
 			<!-- End Item -->
 
 			<!-- Item Open -->
-			<div class="item_open" data-id="05/20/2017" data-access="projects/timeline/tarrington/05_20_2017.html">
+			<div class="item_open" data-id="20/05/2017" data-access="projects/timeline/tarrington/05_20_2017.html">
 				<div class="item_open_content">
 					<img class="ajaxloader" src="images/timeline/loadingAnimation.gif" alt="" />
 				</div>
@@ -1514,7 +1404,115 @@
 	<!-- End Footer -->
 
 
+	<!-- JS Files -->
+	<script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.appear.js"></script>
+	<script type="text/javascript" src="js/waypoint.js"></script>
+	<script type="text/javascript" src="js/modernizr-latest.js"></script>
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/SmoothScroll.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
+	<script type="text/javascript" src="js/jquery.superslides.js"></script>
+	<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/jquery.simple-text-rotator.js"></script>
+	<script type="text/javascript" src="js/jquery.cubeportfolio.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+	<!-- maps -->
+	<script type="text/javascript" src="js/google-map.js"></script>
+	<script type="text/javascript" src="js/jquery.timeline.js"></script>
+	<script type="text/javascript" src="js/skrollr.min.js"></script>
+	<script type="text/javascript" src="js/jquery.fitvids.js"></script>
+	<script type="text/javascript" src="js/jquery.mb.YTPlayer.js"></script>
+	<!-- Revolution Slider -->
+	<script type="text/javascript" src="js/rev_slider/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/rev_slider/jquery.themepunch.tools.min.js"></script>
+	<script type="text/javascript" src="js/rev_slider/rev_plugins.js"></script>
+	<!-- Contact Form -->
+	<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="js/contact-form.js"></script>
+	<!-- Twitter -->
+	<script type="text/javascript" src="js/tweecool.min.js"></script>
+	<script type="text/javascript" src="js/tweecool.js"></script>
+	<!-- Page Plugins -->
+	<script type="text/javascript" src="js/plugins.js"></script>
+	<!-- Portfolio Plugins -->
+	<script type="text/javascript" src="js/portfolio.js"></script>
+	<!-- Theme Panel -->
+	<!--
+	<script type="text/javascript" src="theme_panel/themepanel.js"></script>
+	<script src="https://storage.googleapis.com/vrview/2.0/build/vrview.min.js"></script>
+	-->
 
+
+
+	<script>
+
+        $(document).ready(function() {
+            // removed for now:
+            // loadVrView();
+
+            setTimeout("window.scrollTo(0,0);", 2000);
+
+            $('#register_form').on('submit',function(){
+                var registerName = encodeURIComponent($('#registerName').val());
+                var registerEmail = encodeURIComponent($('#registerEmail').val());
+                var registerBerthNumber = encodeURIComponent($('#registerBerthNumber').val() || 'W');
+                var registerPhoneNumber = encodeURIComponent($('#registerPhoneNumber').val());
+                var registerStreetAddress = encodeURIComponent($('#registerStreetAddress').val());
+                var registerDescription = encodeURIComponent($('#registerDescription').val());
+                var registerComments = encodeURIComponent($('#registerComments').val());
+
+                var nameID = "entry.606478947";
+                var emailID = "entry.1550551130";
+                var berthID = "entry.452638727";
+                var phoneID = "entry.265767952";
+                var streetID = "entry.596795995";
+                var descriptionID = "entry.1371606691";
+                var commentID = "entry.111241773";
+
+                var baseURL = 'https://docs.google.com/forms/d/e/1FAIpQLSdZqlUfJ4V1-2JISXzOPgRTFoZCZG3W01zXj1YeKxBaNKMyew/formResponse?';
+                var submitRef = '&submit=Submit';
+                var submitURL = (baseURL + nameID + "=" + registerName + "&" + emailID + "=" + registerEmail + "&" + berthID + "=" + registerBerthNumber + "&" + phoneID + "=" + registerPhoneNumber + "&" + streetID + "=" + registerStreetAddress + "&" + descriptionID + "=" + registerDescription + "&" + commentID + "=" + registerComments + submitRef);
+                $(this)[0].action=submitURL;
+                $('#registerSubmitFeedback').show();
+            });
+        });
+
+		/*
+		 function loadVrView() {
+
+		 var vrView1 = new VRView.Player('#vrview1', {
+		 image: 'images/tarrington/vr/endOfMainPath.vr.jpg',
+		 is_stereo: false,
+		 width: '100%',
+		 height: 400
+		 });
+
+		 var vrView2 = new VRView.Player('#vrview2', {
+		 image: 'images/tarrington/vr/onTheDock.vr.jpg',
+		 is_stereo: false,
+		 width: '100%',
+		 height: 400
+		 });
+
+		 var vrView3 = new VRView.Player('#vrview3', {
+		 image: 'images/tarrington/vr/halfWayDownLeft.vr.jpg',
+		 is_stereo: false,
+		 width: '100%',
+		 height: 400
+		 });
+
+		 var vrView4 = new VRView.Player('#vrview4', {
+		 image: 'images/tarrington/vr/downriver.vr.jpg',
+		 is_stereo: false,
+		 width: '100%',
+		 height: 400
+		 });
+		 }
+		 */
+	</script>
 
 
 </body>
