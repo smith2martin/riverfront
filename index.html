@@ -1448,12 +1448,12 @@
 
 
 	<script>
-
+        console.log('MJS 1');
         $(document).ready(function() {
             // removed for now:
             // loadVrView();
-
-            setTimeout("window.scrollTo(0,0);", 2000);
+			console.log('MJS 2');
+            setTimeout("window.scrollTo(0,0); console.log('MJS scrolled after 2 seconds')", 2000);
             // $('#logoLink').click();
 
             $('#register_form').on('submit',function(){
