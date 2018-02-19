@@ -1453,7 +1453,8 @@
             // removed for now:
             // loadVrView();
 
-            setTimeout("window.scrollTo(0,0);$('#logoLink').click();", 2000);
+            setTimeout("window.scrollTo(0,0);", 2000);
+            // $('#logoLink').click();
 
             $('#register_form').on('submit',function(){
                 var registerName = encodeURIComponent($('#registerName').val());
