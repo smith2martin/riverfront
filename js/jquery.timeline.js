@@ -17,10 +17,17 @@ TIMELINE OPTIONS
 
     // Timeline Ajax Item Page
     $('.tl3').on('ajaxLoaded.timeline', function(e){
-      console.log(e.element.find('.timeline_open_content span'));
-      var height = e.element.height()-60-e.element.find('h2').height();
-      e.element.find('.timeline_open_content span').css('max-height', height).mCustomScrollbar({
-        autoHideScrollbar:true,
-        theme:"light-thin"
-      }); 
+      // console.log(e.element.find('.timeline_open_content span'));
+      var el = e.element.find('.timeline_open_content span');
+
+      if (el.length) {
+          var height = e.element.height()-60-e.element.find('h2').height();
+
+          el.css('max-height', height).mCustomScrollbar({
+              autoHideScrollbar:true,
+              theme:"light-thin"
+          });
+      }
+
+
     });   
