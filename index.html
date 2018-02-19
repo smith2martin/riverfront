@@ -1449,6 +1449,8 @@
 
 	<script>
         console.log('MJS 1');
+        window.onbeforeunload = function(){ window.scrollTo(0,0); }
+
         $(document).ready(function() {
             // removed for now:
             // loadVrView();
